@@ -1,11 +1,3 @@
-
-// Get the button that opens the modal
-//var btn = document.getElementById("rule-button");
-
-// Get the <span> element that closes the modal
-//var span = document.getElementsByClassName("close-button")[0];
-
-// When the user clicks on the button, open the modal
  function clickme() {
     var modal = document.getElementById("Rules-id");
   modal.style.display = "block";
@@ -38,9 +30,3 @@ function closeme1() {
   var modal = document.getElementById("About-id");
   modal.style.display = "none";
 }
-//window.onclick = function(event) {
-//  var modal = document.getElementById("About-id");
-//  if (event.target == modal) {
-  //  modal.style.display = "none";
-//  }
-//}
