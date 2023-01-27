@@ -30,3 +30,11 @@ function closeme1() {
   var modal = document.getElementById("About-id");
   modal.style.display = "none";
 }
+function myFunction() {
+  var x = document.getElementById("myhead");
+  if (x.className === "head") {
+    x.className += " responsive";
+  } else {
+    x.className = "head";
+  }
+}
