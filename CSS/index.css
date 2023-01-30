@@ -27,13 +27,16 @@ body
 /* Modal Content/Box */
 .Rules-content,.About-content
  {
-  background-color: navy;
+  background-image: url("/Images/pngtree-texture-wood-simple-background-picture-image_1279410.jpg");
   margin: 15% auto; /* 15% from the top and centered */
   padding: 5.555555555555555vw;
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
   font-size: 4.255555555555555vw;
   color: white;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* The Close Button */
@@ -69,9 +72,10 @@ button
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
-  font-family: din-round,sans-serif;
+  font-family: georgia;
+  font-style:italic;
+  font-weight:bold;
   font-size: 4.166666666666667vw;
-  font-weight: 700;
   letter-spacing: .222222222222vw;
   line-height: 5.555555555vw;
   margin: 0vw;
@@ -140,7 +144,7 @@ h3
     font-size: 4.255555555555555vw;
 }
 .head {
-  background-color: #333;
+  background-color: black;
   overflow: hidden;
 }
 
@@ -151,14 +155,14 @@ h3
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration: Mone;
   font-size: 17px;
 }
 
 /* Change the color of links on hover */
 .head a:hover {
   background-color: #ddd;
-  color: black;
+  color: gray;
 }
 
 /* Add an active class to highlight the current page */
