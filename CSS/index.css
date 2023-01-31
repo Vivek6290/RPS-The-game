@@ -14,7 +14,7 @@
 }
 body
 {
-    background: url("/Images/wp7740857 (1).jpg");
+    background: url("../Images/wp7740857 (1).jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,7 +26,7 @@ body
 /* Modal Content/Box */
 .Rules-content,.About-content
  {
-  background-image: url("/Images/pngtree-texture-wood-simple-background-picture-image_1279410.jpg");
+  background-image: url("../Images/pngtree-texture-wood-simple-background-picture-image_1279410.jpg");
   margin: 15% auto; /* 15% from the top and centered */
   padding: 5.555555555555555vw;
   border: 1px solid #888;
@@ -153,9 +153,9 @@ h3
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 2.095808383233533vh 4.444444444444445vw;
   text-decoration: Mone;
-  font-size: 17px;
+  font-size: 4.722222222222222vw;
 }
 
 /* Change the color of links on hover */
@@ -198,7 +198,7 @@ h3
   }
 }
 marquee {
- background-color:yellow;
+  background-color: yellow;
   font-size:4.5555555vw;
   font-family: georgia;
   font-style:italic;
